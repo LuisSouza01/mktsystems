@@ -9,7 +9,7 @@ import SmartWatchImg from '../../assets/images/SmartTimeIcon.svg';
 
 import { FaUser, FaAngleDown } from 'react-icons/fa';
 
-import { Container, PageContent, ContentContainer, LoginContainer, InputContainer } from './styles';
+import { Container, PageContent, ContentContainer, LoginContainer, InputContainer, Footer } from './styles';
 
 function SignIn() {
   return (

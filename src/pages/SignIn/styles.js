@@ -85,6 +85,10 @@ export const ContentContainer = styled.section`
     }
   }
 
+  @media(max-width: 1240px) {
+    max-width: 500px;
+  }
+
   @media(max-width: 768px) {
     justify-content: center;
 
@@ -235,4 +239,9 @@ export const InputContainer = styled.div`
   svg {
     margin: 0px 8px;
   }
+`;
+
+export const Footer = styled.footer`
+  top: 0px;
+  bottom: 0px;
 `;

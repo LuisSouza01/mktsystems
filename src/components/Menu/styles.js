@@ -104,9 +104,13 @@ export const MenuContainer = styled.div`
       margin-left: 50px;
     }
 
+    &:nth-child(2) {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+    }
+
     &:hover {
       color: #fff;
-      border-bottom: 2px solid #fff;
     }
   }
 
