@@ -118,6 +118,12 @@ export const MenuContainer = styled.div`
     background: #fff;
     justify-content: center;
     flex-direction: column;
+
+    a {
+      &:nth-child(2) {
+        color: #C6C6D4;
+      }
+    }
     
     ${({open}) => open ? 
       css`
